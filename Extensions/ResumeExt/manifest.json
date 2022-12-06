@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Resume Server",
+  "version": "0.0.1",
+  "description": "Resume the server",
+   
+  "permissions":[
+    "activeTab", "scripting"
+  ],
+  "background":   {
+    "service_worker":"background.js"
+  },
+  "action": {
+    "default_title": "Resume the server"
+  }
+}
