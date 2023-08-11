@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Send",
+  "version": "0.0.1",
+  "description": "send",
+   
+  "permissions":[
+    "activeTab", "scripting"
+  ],
+  "background":   {
+    "service_worker":"background.js"
+  },
+  "action": {
+    "default_title": "Prep Send config",
+    "default_icon":  "icon-48.png"    
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Prep Send",
+  "version": "0.0.1",
+  "description": "Resume the server",
+   
+  "permissions":[
+    "activeTab", "scripting"
+  ],
+  "background":   {
+    "service_worker":"background.js",
+"matches": [
+        "http://95.216.72.6:90/deployment/deploy?action=send&id=14394354"
+      ]
+  },
+  "action": {
+    "default_title": "Prep Send config",
+    "default_icon":  "icon-48.png"
+  }
+}
